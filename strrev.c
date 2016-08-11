@@ -2,8 +2,7 @@
 #include<string.h>
 int main()
 {
-char s[100]='kathir';
-
-printf("%s",strrev(s));
+string s="kathir";
+cout<<strrev(s);
 return 0;
 }

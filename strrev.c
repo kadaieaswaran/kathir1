@@ -1,11 +1,9 @@
 #include<stdio.h>
-#include<stdop>
 #include<string.h>
 int main()
 {
-char s[100];
+char s[100]='kathir';
 
-scanf("%s",s);
 printf("%s",strrev(s));
 return 0;
 }

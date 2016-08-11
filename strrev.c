@@ -1,12 +1,12 @@
 #include<stdio.h>
-#include<string.h>
-int main()
+int main(void)
 {
-    char str[50];
-    char *rev;
-    printf("Enter the string :");
-    scanf("%s",str);
-    rev = strrev(str);
-    printf("Reverse string :%s",rev);
+    int i,n,ans=1;
+    scanf("%d",n);
+    for(i=2;i<=n;i++)
+    {
+        ans=ans*i;
+    }
+    printf("Fact is :%d",ans);
     return 0;
 }

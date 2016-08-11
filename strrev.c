@@ -1,10 +1,11 @@
 #include<stdio.h>
+#include<conio.h>
 #include<string.h>
 int main()
 {
 string s;
 
-cin>>s;
-cout<<strrev(s);
+scanf("%s",s);
+printf("%s",strrev(s));
 return 0;
 }

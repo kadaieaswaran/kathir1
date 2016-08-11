@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 int main()
 {
@@ -9,6 +8,5 @@ int main()
     scanf("%s",str);
     rev = strrev(str);
     printf("Reverse string :%s",rev);
-    getch();
     return 0;
 }

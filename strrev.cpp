@@ -1,8 +1,12 @@
-#include<iostream.h>
+#include<stdio.h>
 #include<string.h>
 int main()
 {
-string s="kathir";
-cout<<strrev(s);
-return 0;
+    char str[50];
+    char *rev;
+    printf("Enter the string :");
+    scanf("%s",str);
+    rev = strrev(str);
+    printf("Reverse string :%s",rev);
+    return 0;
 }
